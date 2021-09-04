@@ -108,3 +108,11 @@ Elastic Search에 등록을 하되 RabbitMQ를 통해서 순차적으로 데이�
 ### Elastic Search 동작 과정
 
 색인 --> 데이터 등록 --> 검색
+
+### applciation.yml
+```yaml
+spring:
+  elasticsearch:
+    rest:
+      uris: http://127.0.0.1:9200
+```
