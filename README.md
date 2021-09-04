@@ -99,6 +99,8 @@ networks:
     driver: bridge
 ```
 
+celebro의 경우에 host에 설치에서 접속하면 node들이 보인다..
+
 ### 구성과정
 
 Elastic Search에 등록을 하되 RabbitMQ를 통해서 순차적으로 데이터를 Post시키도록 함.
